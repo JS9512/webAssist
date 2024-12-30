@@ -10,7 +10,7 @@ It may evolve to be customizable enough to be a featured light browser for any k
 ## Installation
 
 1. Clone the repository: `git clone https://github.com/JS9512/webAssist`
-2. Change the main URL in urlToLoad string in MainActivity.java file (you can also choose to exclude all the other domains and set a whitelist to unblock specific websites if you need to)
+2. Change the main URL to your preferred one by modifying the "urlToLoad" string in MainActivity.java file. You can also choose to exclude all the other domains and set a whitelist to unblock specific websites if you need to.
 3. Build the app: `gradlew assembleDebug`
 
 
