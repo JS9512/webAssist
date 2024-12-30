@@ -1,0 +1,39 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "org.webassist.unofficial"
+        minSdk 21
+        targetSdk 34
+        versionCode 222
+        versionName "2.2.2"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro' // Use custom ProGuard rules
+            debuggable false // Ensure release builds are not debuggable
+        }
+        debug {
+            debuggable true // Ensure debug builds are debuggable
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    namespace 'org.webassist.unofficial'
+}
+
+dependencies {
+
+implementation 'androidx.annotation:annotation-jvm:1.9.1'
+}

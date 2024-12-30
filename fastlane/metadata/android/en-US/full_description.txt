@@ -1,0 +1,1 @@
+webAssist is a simple WebView wrapper for Android. It blocks all URLs that are not essential for functioning.
