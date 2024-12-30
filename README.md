@@ -1,6 +1,6 @@
 # webAssist
 
-webAssist is a simple WebView wrapper for Phind.com
+webAssist is a simple WebView wrapper for Android
 
 This is a stripped down and modified version of https://github.com/woheller69/gptAssist and https://github.com/woheller69/huggingAssist, born as a hobby project for personal need.
 
