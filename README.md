@@ -2,7 +2,7 @@
 
 webAssist is a simple WebView wrapper for Android
 
-This is a stripped down and modified version of https://github.com/woheller69/gptAssist and https://github.com/woheller69/huggingAssist, born as a hobby project for personal need.
+This is a modified version of https://github.com/woheller69/gptAssist and https://github.com/woheller69/huggingAssist, born as a hobby project for personal need.
 
 It may evolve to be customizable enough to be a featured light browser for any kind of website you may need to see.
 
