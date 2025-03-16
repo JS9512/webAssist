@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">webAssist</string>
-    <string name="downloading">Downloading…</string>
-    <string name="error_copy">Please select and copy text manually</string>
-    <string name="url_copied">URL copied</string>
-</resources>
